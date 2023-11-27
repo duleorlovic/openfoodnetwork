@@ -1,5 +1,5 @@
 mr:
-  language_name: "उत्पादन"
+  language_name: "मराठी"
   time:
     formats:
       long: "%B %d , %Y %-l:%M %p"
@@ -60,7 +60,7 @@ mr:
       order_cycle:
         orders_close_at: तारीख बंद करा
       variant_override:
-        count_on_hand: "हातावर"
+        count_on_hand: "आता उपलब्ध"
       spree/payment_method/calculator:
         preferred_flat_percent: "कॅल्क्युलेटर सपाट टक्के:"
         preferred_amount: "कॅल्क्युलेटर रक्कम:"
@@ -96,7 +96,7 @@ mr:
               after_orders_open_at: खुले होण्याच्या तारखेनंतर असावे
         variant_override:
           count_on_hand:
-            using_producer_stock_settings_but_count_on_hand_set: "निर्माते स्टॉक सेटिंग्ज वापरल्याने रिक्त असणे आवश्यक आहे"
+            using_producer_stock_settings_but_count_on_hand_set: "उत्पादक स्टॉक सेटिंग्ज वापरल्याने रिक्त असणे आवश्यक आहे"
             on_demand_but_count_on_hand_set: "मागणी केली असल्यास रिक्त असणे आवश्यक आहे"
             limited_stock_but_no_count_on_hand: "मर्यादित स्टॉकची सक्ती केल्यामुळे निर्दिष्ट करणे आवश्यक आहे"
       messages:
@@ -279,8 +279,8 @@ mr:
   open_street_map_default_longitude: "मार्ग नकाशा डीफॉल्ट रेखांश उघडा"
   open_street_map_provider_name: "मार्ग नकाशा प्रदात्याचे नाव उघडा"
   open_street_map_provider_options: "मार्ग नकाशा प्रदाता पर्याय उघडा"
-  producer_signup_case_studies_html: "निर्माता साइनअप केस स्टडी HTML"
-  producer_signup_detail_html: "निर्माता साइनअप तपशील HTML"
+  producer_signup_case_studies_html: "उत्पादक साइनअप केस स्टडी HTML"
+  producer_signup_detail_html: "उत्पादक साइनअप तपशील HTML"
   producer_signup_pricing_table_html: "उत्पादक साइनअप किंमत सारणी HTML"
   producers_social: "उत्पादक सामाजिक"
   resume_order: "ऑर्डर पुन्हा सुरू करा"
@@ -305,7 +305,7 @@ mr:
       subject: "%{enterprise} आता %{sitename} वर आहे"
       email_welcome: "स्वागत आहे"
       email_registered: "चा भाग आहे"
-      email_userguide_html: "तुमचा निर्माता किंवा हब सेट करण्यासाठी तपशीलवार समर्थनासह वापरकर्ता मार्गदर्शक येथे आहे: %{link}"
+      email_userguide_html: "तुमचा उत्पादक किंवा हब सेट करण्यासाठी तपशीलवार समर्थनासह वापरकर्ता मार्गदर्शक येथे आहे: %{link}"
       userguide: "फूड नेटवर्क वापरकर्ता मार्गदर्शक उघडा"
       email_admin_html: "तुम्ही %{link} मध्ये लॉग इन करून किंवा मुख्यपृष्ठाच्या वरच्या उजव्या बाजूला असलेल्या cog वर क्लिक करून आणि Administration निवडून तुमचे खाते व्यवस्थापित करू शकता."
       admin_panel: "प्रशासन पॅनेल"
@@ -340,7 +340,7 @@ mr:
       intro: "खाली %{shop} साठी नुकत्याच दिलेल्या सदस्यता ऑर्डरचा सारांश आहे."
     confirmation_summary_email:
       subject: अलीकडे पुष्टी केलेल्या सदस्यता ऑर्डरचा सारांश
-      greeting: "हाय %{name} ,"
+      greeting: " हॅलो %{name} ,"
       intro: "खाली %{shop} साठी नुकत्याच अंतिम केलेल्या सदस्यता ऑर्डरचा सारांश आहे."
     summary_overview:
       total: एकूण %{count} सदस्यता स्वयंचलित प्रक्रियेसाठी चिन्हांकित केल्या गेल्या.
@@ -369,11 +369,11 @@ mr:
         title: इतर अपयश ( %{count} ऑर्डर)
         explainer: अज्ञात कारणास्तव या ऑर्डरची स्वयंचलित प्रक्रिया अयशस्वी झाली. हे घडू नये, कृपया आपण हे पाहत असल्यास आमच्याशी संपर्क साधा.
   home: "OFN"
-  title: "अन्न नेटवर्क उघडा"
+  title: "ओपन फूड नेटवर्क"
   welcome_to: "आपले स्वागत आहे"
-  site_meta_description: "आम्ही तळापासून सुरुवात करतो. शेतकरी आणि उत्पादक त्यांच्या कथा अभिमानाने आणि खऱ्या अर्थाने सांगण्यास तयार आहेत. लोकांना उत्पादनांशी प्रामाणिकपणे आणि प्रामाणिकपणे जोडण्यासाठी वितरक तयार आहेत. चांगले साप्ताहिक खरेदी निर्णय घेऊ शकतात असा विश्वास असलेल्या खरेदीदारांसह…"
+  site_meta_description: "89%match\nआम्ही तळापासून सुरुवात करतो. अशा शेतकऱ्यांच्या आणि उत्पादकांच्या बरोबर जे त्यांच्या कथा अभिमानाने आणि खरोखरपणे सांगण्यास तयार आहेत. अशा वितरकांशी जे लोकांना उत्पादनांशी निष्पक्ष आणि प्रामाणिकपणे जोडण्यासाठी वितरक तयार आहेत. अशा खरेदीदारांसह जे मानतात कि चांगले साप्ताहिक खरेदारी करण्याचे निर्णय जगात खूप चांगले बदल आणू शकतात..."
   search_by_name: नाव किंवा उपनगरानुसार शोधा...
-  producers_join: ओपन फूड नेटवर्कमध्ये सामील होण्यासाठी ऑस्ट्रेलियन उत्पादकांचे आता स्वागत आहे.
+  producers_join: ओपन फूड नेटवर्कमध्ये सामील होण्यासाठी भारतीय उत्पादकांचे आता स्वागत आहे.
   charges_sales_tax: जीएसटी आकारणार?
   business_address: "व्यवसायाचा पत्ता"
   print_invoice: "चलन छापा"
@@ -468,8 +468,8 @@ mr:
   back_to_payments_list: "पेमेंट सूचीकडे परत"
   maestro_or_solo_cards: "मेस्ट्रो/सोलो कार्ड"
   backordered: "बॅकऑर्डर केलेले"
-  on_hand: "हातावर"
-  on hand: "हातावर"
+  on_hand: "आता उपलब्ध"
+  on hand: "आता उपलब्ध"
   ship: "जहाज"
   shipping_category: "शिपिंग श्रेणी"
   height: "उंची"
@@ -499,7 +499,7 @@ mr:
           title: श्रेण्या
           selected_categories: "%{count} वर्गवारी निवडल्या"
         producers:
-          title: निर्माते
+          title: उत्पादक
           selected_producers: "%{count} उत्पादक निवडले"
         per_page: "प्रति पृष्ठ %{count} आयटम"
         colums: स्तंभ
@@ -507,10 +507,10 @@ mr:
         name: नाव
         unit: युनिट
         price: किंमत
-        producer: निर्माता
+        producer: उत्पादक
         category: श्रेणी
         sku: SKU
-        on_hand: "हातावर"
+        on_hand: "आता उपलब्ध"
         on_demand: "मागणीनुसार"
         tax_category: "कर श्रेणी"
         inherits_properties: "गुणधर्म वारसा?"
@@ -519,10 +519,10 @@ mr:
       columns_selector:
         unit: युनिट
         price: किंमत
-        producer: निर्माता
+        producer: उत्पादक
         category: श्रेणी
         sku: SKU
-        on_hand: "हातावर"
+        on_hand: "आता उपलब्ध"
         on_demand: "मागणीनुसार"
         tax_category: "कर श्रेणी"
         inherits_properties: "गुणधर्म वारसा?"
@@ -544,7 +544,7 @@ mr:
     name: नाव
     first_name: पहिले नाव
     last_name: आडनाव
-    on_hand: हातावर
+    on_hand: आता उपलब्ध
     on_demand: मागणीनुसार
     on_demand?: मागणीनुसार?
     order_cycle: ऑर्डर सायकल
@@ -552,7 +552,7 @@ mr:
     payment_method: पेमेंट पद्धत
     phone: फोन
     price: किंमत
-    producer: निर्माता
+    producer: उत्पादक
     image: प्रतिमा
     product: उत्पादन
     quantity: प्रमाण
@@ -671,7 +671,7 @@ mr:
         title: सामग्री
         header: शीर्षलेख
         home_page: मुखपृष्ठ
-        producer_signup_page: निर्माता साइनअप पृष्ठ
+        producer_signup_page: उत्पादक साइनअप पृष्ठ
         hub_signup_page: हब साइनअप पृष्ठ
         group_signup_page: गट साइनअप पृष्ठ
         main_links: मुख्य मेनू दुवे
@@ -757,7 +757,7 @@ mr:
         all_producers: सर्व उत्पादक
         all_categories: सर्व श्रेणी
         producers:
-          label: निर्माते
+          label: उत्पादक
         categories:
           label: श्रेण्या
         search: शोधा
@@ -796,12 +796,12 @@ mr:
         values_must_be_same: समान नाव असलेल्या उत्पादनांसाठी समान असणे आवश्यक आहे
         blank: रिक्त असू शकत नाही
         products_no_permission: तुम्हाला या एंटरप्राइझसाठी उत्पादने व्यवस्थापित करण्याची परवानगी नाही
-        inventory_no_permission: तुम्हाला या निर्मात्यासाठी इन्व्हेंटरी तयार करण्याची परवानगी नाही
+        inventory_no_permission: तुम्हाला या उत्पादकांसाठी इन्व्हेंटरी तयार करण्याची परवानगी नाही
         none_saved: कोणतीही उत्पादने यशस्वीरित्या जतन केली नाहीत
         line_number: "रेखा %{number} :"
         encoding_error: "कृपया तुमच्या मूळ फाइलची भाषा सेटिंग तपासा आणि ती UTF-8 एन्कोडिंगसह सेव्ह केली असल्याची खात्री करा"
         unexpected_error: "फाईल उघडत असताना उत्पादन आयात मध्ये अनपेक्षित एरर आला. %{error_message}"
-        malformed_csv: "उत्पादन आयात करताना एक विकृत CSV आला: %{error_message}"
+        malformed_csv: "उत्पादन इम्पोर्ट करताना एक चुकीच्या फॉरमॅट मध्ये CSV आला: %{error_message}"
       index:
         notice: "लक्ष द्या"
         beta_notice: "हे वैशिष्ट्य अद्याप बीटामध्ये आहे: ते वापरताना तुम्हाला काही एरर्स येऊ शकतात. कृपया ग्राहक सेवेशी संपर्क साधण्यास अजिबात संकोच करू नका."
@@ -877,7 +877,7 @@ mr:
         view_products: उत्पादन पृष्ठावर जा
         view_inventory: इन्व्हेंटरी पृष्ठावर जा
       product_headings:
-        producer: निर्माता
+        producer: उत्पादक
         sku: SKU
         name: नाव
         display_name: डिस्प्ले नाव
@@ -887,7 +887,7 @@ mr:
         unit_type: युनिट प्रकार
         variant_unit_name: वेरिएंट युनिटचे नाव
         price: किंमत
-        on_hand: हातावर
+        on_hand: आता उपलब्ध
         on_demand: मागणीनुसार
         shipping_category: शिपिंग श्रेणी
         tax_category: कर श्रेणी
@@ -955,7 +955,7 @@ mr:
       index:
         title: एंटरप्राइज
         new_enterprise: नवे एंटरप्राइज
-        producer?: "निर्माता ?"
+        producer?: "उत्पादक?"
         package: पॅकेज
         status: स्थिती
         manage: मॅनेज
@@ -989,10 +989,10 @@ mr:
           disabled: निष्क्रिय करा
         business_address:
           company_legal_name: कंपनीचे कायदेशीर नाव
-          company_placeholder: उदाहरण इंक.
+          company_placeholder: उदाहरण Inc.
           address1: कायदेशीर पत्ता
-          address1_placeholder: 123 हाय  स्ट्रीट
-          address2: पत्ता ( क्रमशः)
+          address1_placeholder: 123 महर्षी कर्वे रोड
+          address2: पत्ता (क्रमशः)
           legal_phone_number: कायदेशीर फोन नंबर
           phone_placeholder: "98 123 4565"
           select_country: "देश निवडा"
@@ -1000,7 +1000,7 @@ mr:
         contact:
           legend: "संपर्क"
           name: नाव
-          name_placeholder: उदा. गुस्ताव प्लम
+          name_placeholder: उदा. हापूस आंबे
           email_address: सार्वजनिक ईमेल पत्ता
           email_address_placeholder: उदा. inquiries@fresh-food.com
           email_address_tip: "हा ईमेल पत्ता तुमच्या सार्वजनिक प्रोफाइलमध्ये दर्शवला जाईल"
@@ -1052,7 +1052,7 @@ mr:
           groups_tip: तुम्ही सदस्य आहात असे कोणतेही गट किंवा प्रदेश निवडा. ग्राहकांना तुमची एंटरप्राइज शोधण्यात मदत होईल.
           groups_placeholder: उपलब्ध गट शोधण्यासाठी टाइप करा...
           primary_producer: प्राथमिक उत्पादक ?
-          primary_producer_tip: तुम्ही अन्नाचे प्राथमिक उत्पादक असाल तर &#39; उत्पादक &#39; निवडा.
+          primary_producer_tip: तुम्ही अन्नधान्याचे प्राथमिक उत्पादक असाल तर &#39; उत्पादक &#39; निवडा.
           producer: उत्पादक
           any: कोणतेही
           none: कोणतेही नाही
@@ -1168,7 +1168,7 @@ mr:
           owner_tip: या एंटरप्राइझसाठी जबाबदार प्राथमिक वापरकर्ता.
           notifications: सूचना
           notifications_tip: ऑर्डरबद्दल सूचना या ईमेल पत्त्यावर पाठवल्या जातील.
-          notifications_placeholder: उदा. gustav@tuffles.com
+          notifications_placeholder: उदा. prakash@tuffles.com
           notifications_note: 'टीप: वापरण्यापूर्वी नवीन ईमेल पत्त्याची पुष्टी करणे आवश्यक असू शकते'
           managers: मॅनेजर्स
           managers_tip: हे एंटरप्राइझ मॅनेज करण्याची परवानगी असलेले इतर वापरकर्ते.
@@ -1228,13 +1228,13 @@ mr:
         producer_shop_description_text: तुमच्या स्वतःच्या ओपन फूड नेटवर्क शॉपफ्रंटद्वारे थेट ग्राहकांना तुमच्या उत्पादनांची विक्री करा.
         producer_hub: उत्पादक केंद्र
         producer_hub_text: स्वतःचे व इतरांचे उत्पादन विकावे
-        producer_hub_description_text: तुमचा एंटरप्राइझ हा तुमच्या स्थानिक अन्न प्रणालीचा कणा आहे. ओपन फूड नेटवर्कवर तुमच्या शॉपफ्रंटद्वारे तुम्ही तुमची स्वतःची उत्पादने तसेच इतर उद्योगांची उत्पादने एकत्र विकू शकता.
+        producer_hub_description_text: तुमची एंटरप्राइझ ही तुमच्या स्थानिक अन्नधान्य व्यवस्थेचा कणा आहे. ओपन फूड नेटवर्कवर तुमच्या शॉपफ्रंटद्वारे तुम्ही तुमची स्वतःची उत्पादने तसेच इतर उद्योगांची उत्पादने एकत्र विकू शकता.
         profile: केवळ प्रोफाइल
         get_listing: एक सूची मिळवा
         profile_description_text: 'ओपन फूड नेटवर्कवर लोक तुम्हाला शोधून तुमच्याशी संपर्क साधू शकतात. तुमची एंटरप्राइझ नकाशावर दृश्यमान असेल, आणि सूचीमध्ये शोधता येईल. '
         hub_shop: हब शॉप
         hub_shop_text: इतरांच्या उत्पादनांची विक्री करा
-        hub_shop_description_text: तुमचा एंटरप्राइझ हा तुमच्या स्थानिक अन्न प्रणालीचा कणा आहे. तुम्ही इतर एंटरप्राइझचे उत्पादन एकत्र  करून ते तुमच्या दुकानातून ओपन फूड नेटवर्कवर विकू शकता.
+        hub_shop_description_text: तुमची एंटरप्राइझ ही तुमच्या स्थानिक अन्नधान्य व्यवस्थेचा कणा आहे. तुम्ही इतर एंटरप्राइझचे उत्पादन एकत्र  करून ते तुमच्या दुकानातून ओपन फूड नेटवर्कवर विकू शकता.
         choose_option: कृपया वरील पर्यायांपैकी एक निवडा.
         change_now: आता बदला
       enterprise_user_index:
@@ -1243,7 +1243,7 @@ mr:
         search_placeholder: नाव शोधा
         manage: मॅनेज
         manage_link: सेटिंग्ज
-        producer?: "निर्माता ?"
+        producer?: "उत्पादक ?"
         package: "पॅकेज"
         status: "स्थिती"
       new_form:
@@ -1301,7 +1301,7 @@ mr:
         distributor: "वितरक"
         products: "उत्पादने"
         tags: "टॅग्ज"
-        delivery_details: "वितरण तपशील"
+        delivery_details: "डिलिव्हरी तपशील"
         fees: "फी"
         next: "पुढे"
         previous: "मागील"
@@ -1326,7 +1326,7 @@ mr:
         outgoing: "3. आउटगोइंग उत्पादने"
         checkout_options: "4. चेकआउट पर्याय"
       exchange_form:
-        pickup_time_tip: जेव्हा या ओसीकडून ऑर्डर ग्राहकांसाठी तयार होतील
+        pickup_time_tip: जेव्हा या ओसीकडून ग्राहकांसाठी ऑर्डर्स तयार होतील
         pickup_instructions_placeholder: "पिकअप सूचना"
         pickup_instructions_tip: ग्राहकांनी ऑर्डर पूर्ण केल्यानंतर या सूचना त्यांना दाखवल्या जातात
         pickup_time_placeholder: "साठी तयार (उदा. तारीख / वेळ)"
@@ -1384,13 +1384,13 @@ mr:
         ready_for: तयार
         ready_for_placeholder: तारीख वेळ
         customer_instructions: ग्राहक सूचना
-        customer_instructions_placeholder: पिक-अप किंवा वितरण नोट्स
+        customer_instructions_placeholder: पिक-अप किंवा डिलिव्हरी नोट्स
         products: उत्पादने
         fees: फी
         tags: टॅग्ज
       destroy_errors:
-        orders_present: ती ऑर्डर सायकल ग्राहकाने निवडली आहे आणि ती हटवली जाऊ शकत नाही. ग्राहकांना त्यात प्रवेश करण्यापासून रोखण्यासाठी, ती डिलीट करण्याऐवजी कृपया बंद करा.
-        schedule_present: 'ती ऑर्डर सायकल शेड्यूलशी जोडलेली असून डिलीट केली जाऊ शकत नाही. कृपया आधी शेड्यूल अनलिंक किंवा डिलीट करा. '
+        orders_present: ही ऑर्डर सायकल ग्राहकाने निवडली आहे आणि ती हटवली जाऊ शकत नाही. ग्राहकांना त्यात प्रवेश करण्यापासून रोखण्यासाठी, ती डिलीट करण्याऐवजी कृपया बंद करा.
+        schedule_present: 'ही ऑर्डर सायकल शेड्यूलशी जोडलेली असून डिलीट केली जाऊ शकत नाही. कृपया आधी शेड्यूल अनलिंक किंवा डिलीट करा. '
       bulk_update:
         no_data: हम्म, काहीतरी चूक झाली. ऑर्डर सायकल डेटा आढळला नाही.
       date_warning:
@@ -1465,7 +1465,7 @@ mr:
       totals_by_supplier: पुरवठादाराद्वारे सायकल वितरक एकूण ऑर्डर करा
       customer_totals: ऑर्डर सायकल ग्राहक एकूण
       all_products: सर्व उत्पादने
-      inventory: 'साठा (शिल्लक) '
+      inventory: 'साठा (आता उपलब्ध) '
       lettuce_share: लेट्युसशेअर
       payment_methods: पेमेंट पद्धती रिपोर्टस्
       delivery: डिलिव्हरी रिपोर्टस्
@@ -1706,7 +1706,7 @@ mr:
   shared:
     mailers:
       powered_by:
-        open_food_network: "अन्न नेटवर्क उघडा"
+        open_food_network: "ओपन फूड नेटवर्क"
         powered_html: "तुमचा खरेदीचा अनुभव %{open_food_network} द्वारे समर्थित आहे."
     menu:
       cart:
@@ -1724,7 +1724,7 @@ mr:
       mobile_menu:
         cart: "कार्ट"
     register_call:
-      selling_on_ofn: "ओपन फूड नेटवर्कवर जाण्यात स्वारस्य आहे?"
+      selling_on_ofn: "ओपन फूड नेटवर्कला सामील होण्यात स्वारस्य आहे?"
       register: "येथे नोंदणी करा"
     footer:
       footer_secure: "सुरक्षित आणि विश्वासार्ह."
@@ -1768,7 +1768,7 @@ mr:
   invoice_column_tax_rate: "कर दर"
   invoice_tax_total: "GST एकूण:"
   tax_invoice: "टॅक्स इन्व्हॉइस"
-  tax_total: "एकूण कर ( %{rate} ):"
+  tax_total: "एकूण कर (%{rate}):"
   invoice_shipping_type: "प्रकार:"
   total_excl_tax: "एकूण (कर वगळून):"
   total_incl_tax: "एकूण (करासह):"
@@ -1779,15 +1779,15 @@ mr:
   order_number: "ऑर्डर क्रमांक:"
   date_of_transaction: "व्यवहाराची तारीख:"
   menu_1_title: "दुकाने"
-  menu_1_url: "/दुकाने"
+  menu_1_url: "/shops"
   menu_2_title: "नकाशा"
-  menu_2_url: "/नकाशा"
-  menu_3_title: "निर्माते"
-  menu_3_url: "/निर्माते"
+  menu_2_url: "/map"
+  menu_3_title: "उत्पादक"
+  menu_3_url: "/producers"
   menu_4_title: "गट"
-  menu_4_url: "/गट"
+  menu_4_url: "/groups"
   menu_5_title: "बद्दल"
-  menu_5_url: "https://about.openfoodnetwork.org.au/"
+  menu_5_url: "https://about.openfoodnetwork.in/"
   menu_6_title: "कनेक्ट करा"
   menu_6_url: "https://openfoodnetwork.org/au/connect/"
   menu_7_title: "शिका"
@@ -1815,16 +1815,16 @@ mr:
   phone: फोन
   next: पुढे
   address: पत्ता
-  address_placeholder: उदा. 123 हाय स्ट्रीट
-  address2: पत्ता ( पुढे चालू.)
+  address_placeholder: उदा. 123 महर्षी कर्वे रोड
+  address2: पत्ता (क्रमशः)
   city: शहर
-  city_placeholder: उदा. नॉर्थकोट
+  city_placeholder: उदा. रत्नागिरी
   latitude: अक्षांश
   latitude_placeholder: उदा. -३७.४७१३०७७
   latitude_longitude_tip: तुमचा एंटरप्राइझ नकाशावर प्रदर्शित करण्यासाठी अक्षांश आणि रेखांश आवश्यक आहेत.
   longitude: रेखांश
   longitude_placeholder: उदा. १४४.७८५१५३१
-  use_geocoder: पत्त्यावरून आपोआप अक्षांश आणि रेखांश मोजायचे?
+  use_geocoder: पत्त्यावरून आपोआप अक्षांश आणि रेखांश मिळवायचे?
   state: राज्य
   postcode: पिनकोड
   postcode_placeholder: उदा. 3070
@@ -1845,7 +1845,7 @@ mr:
   label_shops: "दुकाने"
   label_map: "नकाशा"
   label_producer: "उत्पादक"
-  label_producers: "निर्माते"
+  label_producers: "उत्पादक"
   label_groups: "गट"
   label_about: "बद्दल"
   label_blog: "ब्लॉग"
@@ -1893,33 +1893,36 @@ mr:
       statistics_cookies: "सांख्यिकी कुकीज"
       cookie_matomo_basics_desc: "आकडेवारी गोळा करण्यासाठी Matomo प्रथम पक्ष कुकीज."
       cookie_matomo_heatmap_desc: "Matomo हीटमॅप आणि सत्र रेकॉर्डिंग कुकी."
-      cookie_matomo_ignore_desc: "वापरकर्त्याचा मागोवा घेण्यापासून वगळण्यासाठी कुकी वापरली जाते."
+      cookie_matomo_ignore_desc: "वापरकर्त्याला मागोवा घेण्यापासून वगळण्यासाठी कुकी वापरली जाते."
       disabling_cookies_header: "कुकीज अक्षम करण्याबाबत चेतावणी"
     cookies_banner:
       cookies_policy_link_desc: "तुम्हाला अधिक जाणून घ्यायचे असल्यास, आमचे तपासा"
       cookies_policy_link: "कुकीज धोरण"
       cookies_accept_button: "कुकीज स्वीकारा"
   home_shop: आता खरेदी करा
-  brandstory_headline: "अन्न, असंघटित."
-  brandstory_intro: "काहीवेळा सिस्टमचे निराकरण करण्याचा सर्वोत्तम मार्ग म्हणजे नवीन सुरू करणे…"
+  brandstory_headline: "कृषि उत्पादन, स्थानिक आणि आरोग्यदायी!"
+  brandstory_intro: "कधी कधी सिस्टमला ठीक करण्याचा सर्वोत्तम मार्ग म्हणजे नवीन सिस्टम सुरू करणे…"
+  brandstory_part1: "आम्ही तळापासून सुरुवात करतो. अशा शेतकऱ्यांच्या आणि उत्पादकांच्या सोबत जे त्यांच्या गोष्टी अभिमानाने आणि खरेपणाने सांगण्यास तयार आहेत. अशा वितारकांच्या सोबत जे लोकांना कृषी उत्पादनांशी निष्पक्ष आणि प्रामाणिकपणे जोडण्यासाठी तयार आहेत. अशा ग्राहकांच्या सोबत जे मानतात कि चांगली साप्ताहिक खरेदी करण्याचे निर्णय जगात खूप चांगले बदल आणू शकतात."
+  brandstory_part2: "मग आपल्याला ते प्रत्यक्षात आणण्यासाठी एक मार्ग आवश्यक आहे. अन्न पिकवणाऱ्या, विकणाऱ्या आणि खरेदी करणाऱ्या प्रत्येकाला सक्षम करण्याचा एक मार्ग. सर्व अनुभव सांगण्याचा, सर्व लॉजिस्टिक्स हाताळण्याचा एक मार्ग. दररोजचे व्यवहार आमूलाग्र बदलण्याचा एक मार्ग."
+  brandstory_part3: "म्हणून, सगळ्यांना एक समान संधी देण्यासाठी, आम्ही एक अशी ऑनलाइन मार्केटप्लेस तयार करतो कि जी खूप पारदर्शकपणे काम करते. त्यामुळे खूप चांगले संबंध तयार होतात. हे सॉफ्टवेअर, ओपन सोर्स असल्याने, ते प्रत्येकाच्या मालकीचे आहे. लोक जगभरात त्याच्या आवृत्त्या सुरू करतात कारण ते विविध देश आणि ठिकाणांप्रमाणे स्वतःला जुळवून घेऊ शकते."
   brandstory_part4: "हे सर्वत्र कार्य करते. ते सर्व काही बदलते."
   brandstory_part5_strong: "आम्ही त्याला ओपन फूड नेटवर्क म्हणतो."
-  brandstory_part6: "आपल्या सर्वांना अन्न आवडते. आता आपण आपल्या अन्नप्रणालीवरही प्रेम करू शकतो."
-  system_headline: "खरेदी - ते कसे कार्य करते ते येथे आहे."
+  brandstory_part6: "सगळ्यांनाच आपले अन्नधान्य आवडते. आता आपण आपल्या अन्नप्रणालीवरही प्रेम करू शकतो."
+  system_headline: "खरेदी - कशी कराल ते आता बघुया."
   system_step1: "1. शोधा"
-  system_step1_text: "हंगामी स्थानिक खाद्यपदार्थांसाठी आमची वैविध्यपूर्ण, स्वतंत्र दुकाने शोधा. अतिपरिचित क्षेत्र आणि खाद्य श्रेणीनुसार शोधा किंवा तुम्ही डिलिव्हरी किंवा पिकअपला प्राधान्य देता का."
+  system_step1_text: "हंगामी स्थानिक अन्नधान्यासाठी आमची वैविध्यपूर्ण, स्वतंत्र दुकाने शोधा. जवळपासचे परिचित क्षेत्र आणि खाद्य श्रेणीनुसार शोधा किंवा तुम्ही डिलिव्हरी किंवा पिकअपला प्राधान्य देता का त्यावर."
   system_step2: "2. दुकान"
   system_step3: "3. पिक-अप / डिलिव्हरी"
-  cta_headline: "खरेदी जे जगाला एक चांगले ठिकाण बनवते."
+  cta_headline: "खरेदी प्रक्रिया जी जगाला एक चांगले ठिकाण बनवते."
   cta_label: "मी तयार आहे"
-  stats_headline: "आम्ही एक नवीन अन्न प्रणाली तयार करत आहोत."
-  stats_producers: "अन्न उत्पादक"
-  stats_shops: "खाद्यपदार्थांची दुकाने"
-  stats_shoppers: "अन्न दुकानदार"
-  stats_orders: "अन्न ऑर्डर"
+  stats_headline: "आम्ही एक नवीन अन्नधान्य प्रणाली तयार करत आहोत."
+  stats_producers: "अन्नधान्य उत्पादक"
+  stats_shops: "अन्नधान्यांची दुकाने"
+  stats_shoppers: "अन्नधान्य दुकानदार"
+  stats_orders: "अन्नधान्यांच्या ऑर्डर्स"
   checkout_title: तपासा
   checkout_now: आता चेकआउट करा
-  checkout_order_ready: साठी ऑर्डर तयार आहे
+  checkout_order_ready: ऑर्डर तयार आहे या तारखेसाठी
   checkout_hide: लपवा
   checkout_expand: विस्तृत करा
   checkout_headline: "ठीक आहे, चेकआउट करण्यासाठी तयार आहात?"
@@ -1929,13 +1932,13 @@ mr:
   checkout_default_bill_address: "डीफॉल्ट बिलिंग पत्ता म्हणून जतन करा"
   checkout_shipping: शिपिंग माहिती
   checkout_default_ship_address: "डीफॉल्ट शिपिंग पत्ता म्हणून जतन करा"
-  checkout_method_free: फुकट
-  checkout_address_same: शिपिंग पत्ता बिलिंग पत्त्यासारखाच आहे?
+  checkout_method_free: मोफत
+  checkout_address_same: शिपिंग पत्ता आणि बिलिंग चा पत्ता एकाच आहे?
   checkout_ready_for: "तयार:"
   checkout_instructions: "काही टिप्पण्या किंवा विशेष सूचना?"
   checkout_payment: पेमेंट
   checkout_send: आत्ताच ऑर्डर द्या
-  checkout_your_order: तुझा आदेश
+  checkout_your_order: तुमची ऑर्डर
   checkout_cart_total: कार्ट एकूण
   checkout_shipping_price: शिपिंग
   checkout_total_price: एकूण
@@ -2005,9 +2008,9 @@ mr:
         remove_code: कोड काढा
     step3:
       delivery_details:
-        title: वितरण तपशील
+        title: डिलिव्हरी तपशील
         edit: सुधारणे
-        address: वितरण पत्ता
+        address: डिलिव्हरी पत्ता
         instructions: सूचना
       payment_method:
         title: पेमेंट पद्धत
@@ -2041,9 +2044,9 @@ mr:
   order_payment: "याद्वारे पैसे देणे:"
   no_payment_required: "पेमेंट आवश्यक नाही"
   order_billing_address: बिलाचा पत्ता
-  order_delivery_on: वितरण सुरू
-  order_delivery_address: वितरण पत्ता
-  order_delivery_time: वितरण वेळ
+  order_delivery_on: डिलिव्हरी सुरू
+  order_delivery_address: डिलिव्हरी पत्ता
+  order_delivery_time: डिलिव्हरी वेळ
   order_special_instructions: "तुमच्या नोट्स:"
   order_pickup_time: संकलनासाठी सज्ज
   order_pickup_instructions: संकलन सूचना
@@ -2052,7 +2055,7 @@ mr:
   order_total_price: एकूण
   order_balance_due: शिल्लक देय
   order_includes_tax: (कराचा समावेश आहे)
-  order_hub_info: हब माहिती
+  order_hub_info: हब ची माहिती
   order_back_to_store: स्टोअरकडे परत
   order_back_to_cart: कार्टकडे परत
   order_back_to_website: वेबसाइटवर परत
@@ -2063,18 +2066,18 @@ mr:
   products_at: "%{distributor} वर"
   products_elsewhere: "इतरत्र आढळणारी उत्पादने"
   email_confirmed: "तुमच्या ईमेल पत्त्याची पुष्टी केल्याबद्दल धन्यवाद."
-  email_confirmation_greeting: "हाय, %{contact} !"
+  email_confirmation_greeting: "हॅलो, %{contact} !"
   email_confirmation_link_label: "या ईमेल पत्त्याची पुष्टी करा »"
   email_social: "आमच्याशी कनेक्ट व्हा:"
   email_contact: "आम्हाला ईमेल करा:"
   email_signoff: "चिअर्स,"
   email_signature: "%{sitename} टीम"
-  email_confirm_customer_greeting: "हाय %{name} ,"
+  email_confirm_customer_greeting: "हॅलो %{name} ,"
   email_confirm_customer_intro_html: "<strong>%{distributor}</strong> वर खरेदी केल्याबद्दल धन्यवाद!"
   email_confirm_customer_number_html: "ऑर्डर पुष्टीकरण <strong># %{number}</strong>"
   email_confirm_customer_details_html: "<strong>%{distributor}</strong> वरील तुमच्या ऑर्डरचे तपशील येथे आहेत:"
   email_confirm_customer_signoff: "आपला आभारी,"
-  email_confirm_shop_greeting: "हाय %{name} ,"
+  email_confirm_shop_greeting: "हॅलो %{name} ,"
   email_confirm_shop_order_html: "शाब्बास! तुमच्याकडे <strong>%{distributor}</strong> साठी नवीन ऑर्डर आहे!"
   email_confirm_shop_number_html: "ऑर्डर पुष्टीकरण <strong># %{number}</strong>"
   email_order_summary_item: "वस्तू"
@@ -2089,14 +2092,14 @@ mr:
   email_payment_description: चेकआउटवर पेमेंट वर्णन
   email_payment_summary: पेमेंट सारांश
   email_payment_method: "याद्वारे पैसे देणे:"
-  email_so_placement_intro_html: "तुमच्याकडे <strong>%{distributor}</strong> सह नवीन ऑर्डर आहे"
-  email_so_placement_details_html: "<strong>%{distributor}</strong> साठी तुमच्या ऑर्डरचे तपशील येथे आहेत:"
-  email_so_confirmation_details_html: "<strong>%{distributor}</strong> वरील तुमच्या ऑर्डरबद्दल तुम्हाला जे काही माहित असणे आवश्यक आहे ते येथे आहे:"
-  email_so_empty_details_html: "येथे <strong>%{distributor}</strong> साठी न ठेवलेल्या ऑर्डरचे तपशील आहेत:"
-  email_so_failed_payment_intro_html: "आम्ही पेमेंटवर प्रक्रिया करण्याचा प्रयत्न केला, परंतु काही समस्या आल्या..."
-  email_shipping_delivery_details: वितरण तपशील
-  email_shipping_delivery_time: "वितरण यावर:"
-  email_shipping_delivery_address: "वितरण पत्ता:"
+  email_so_placement_intro_html: "तुम्हाला <strong>%{distributor}</strong> ची नवीन ऑर्डर मिळाली आहे"
+  email_so_placement_details_html: "<strong>%{distributor}</strong> च्या ऑर्डरचे तपशील येथे आहेत:"
+  email_so_confirmation_details_html: "<strong>%{distributor}</strong> च्या ऑर्डरबद्दल तुम्हाला जे काही माहित असणे आवश्यक आहे ते येथे आहे:"
+  email_so_empty_details_html: "येथे <strong>%{distributor}</strong> च्या न प्लेस केलेल्या ऑर्डरचे तपशील आहेत:"
+  email_so_failed_payment_intro_html: "आम्ही पेमेंट प्रोसेस करण्याचा प्रयत्न केला, परंतु काही समस्या आल्या..."
+  email_shipping_delivery_details: डिलिव्हरी तपशील
+  email_shipping_delivery_time: "डिलिव्हरी यावर:"
+  email_shipping_delivery_address: "डिलिव्हरी पत्ता:"
   email_shipping_collection_details: संकलन तपशील
   email_shipping_collection_time: "संकलनासाठी तयार:"
   email_shipping_collection_instructions: "संकलन सूचना:"
@@ -2106,12 +2109,12 @@ mr:
   email_signup_confirmed_email: "तुमच्या ईमेलची पुष्टी केल्याबद्दल धन्यवाद."
   email_signup_shop_html: "तुम्ही आता %{link} वर लॉग इन करू शकता."
   invite_email:
-    greeting: "नमस्कार!"
+    greeting: "हॅलो!"
     invited_to_manage: "तुम्हाला %{instance} वर %{enterprise} व्यवस्थापित करण्यासाठी आमंत्रित केले आहे."
   producer_mail_greeting: "प्रिय"
   producer_mail_text_before: "कृपया यासाठी तयार असलेल्या ऑर्डर सायकलबद्दलचे अपडेट खाली शोधा:"
   producer_mail_order_text: "तुमच्या उत्पादनांच्या ऑर्डरचा सारांश येथे आहे:"
-  producer_mail_delivery_instructions: "स्टॉक पिकअप/वितरण सूचना:"
+  producer_mail_delivery_instructions: "स्टॉक पिकअप/डिलिव्हरी सूचना:"
   producer_mail_signoff: "धन्यवाद आणि शुभेच्छा"
   producer_mail_order_customer_text: "येथे ग्राहकांद्वारे गटबद्ध केलेल्या ऑर्डरचा सारांश आहे"
   shopping_oc_closed: ऑर्डर बंद आहेत
@@ -2121,7 +2124,7 @@ mr:
   shopping_tabs_home: "मुख्यपृष्ठ"
   shopping_tabs_shop: "दुकान"
   shopping_tabs_about: "बद्दल"
-  shopping_tabs_producers: "निर्माते"
+  shopping_tabs_producers: "उत्पादक"
   shopping_tabs_contact: "संपर्क"
   shopping_tabs_groups: "गट"
   shopping_contact_address: "पत्ता"
@@ -2129,7 +2132,7 @@ mr:
   shopping_contact_social: "अनुसरण करा"
   shopping_groups_part_of: "याचा भाग आहे:"
   shopping_producers_of_hub: "%{hub} चे उत्पादक:"
-  enterprises_next_closing: "पुढील ऑर्डर बंद"
+  enterprises_next_closing: "पुढील ऑर्डर बंद होईल"
   enterprises_currently_open: "ऑर्डर सध्या खुल्या आहेत"
   enterprises_ready_for: "तयार"
   enterprises_choose: "तुम्हाला तुमची ऑर्डर हवी तेव्हा निवडा:"
@@ -2140,7 +2143,7 @@ mr:
   hubs_shopping_here: "येथे खरेदी"
   hubs_orders_closed: "ऑर्डर्स बंद"
   hubs_profile_only: "फक्त प्रोफाइल"
-  hubs_delivery_options: "वितरण पर्याय"
+  hubs_delivery_options: "डिलिव्हरी पर्याय"
   hubs_pickup: "पिकअप"
   hubs_delivery: "डिलिव्हरी"
   hubs_producers: "आमचे उत्पादक"
@@ -2163,30 +2166,30 @@ mr:
   products_filter_by: "द्वारे फिल्टर करा"
   products_filter_selected: "निवडले"
   products_filter_heading: "फिल्टर"
-  products_filter_clear: "साफ"
+  products_filter_clear: "क्लियर"
   products_filter_done: "झाले"
   products_loading: "उत्पादने लोड करत आहे..."
   products_updating_cart: "कार्ट अपडेट करत आहे..."
   products_cart_empty: "कार्ट रिकामी"
   products_edit_cart: "तुमची कार्ट संपादित करा"
-  products_from: पासून
+  products_from: उत्पादक
   products_change: "जतन करण्यासाठी कोणतेही बदल नाहीत."
   products_update_error: "खालील त्रुटींसह जतन करणे अयशस्वी झाले:"
   products_update_error_msg: "जतन करणे अयशस्वी झाले."
   products_update_error_data: "अवैध डेटामुळे सेव्ह अयशस्वी:"
   products_changes_saved: "बदल जतन केले."
   products_no_results_html: "सॉरी, %{query} साठी आम्हाला कोणतेही परिणाम आढळले नाहीत"
-  products_clear_search: "शोध साफ करा"
+  products_clear_search: "शोध क्लियर करा"
   components_profiles_show: "प्रोफाइल दाखवा"
   components_filters_nofilters: "कोणतेही फिल्टर नाहीत"
-  components_filters_clearfilters: "सर्व फिल्टर साफ करा"
+  components_filters_clearfilters: "सर्व फिल्टर्स क्लियर करा"
   groups_title: गट
   groups_headline: गट / प्रदेश
   groups_search: "शोध नाव किंवा कीवर्ड"
   groups_no_groups: "कोणतेही गट आढळले नाहीत"
   groups_about: "आमच्याबद्दल"
   groups_producers: "आमचे उत्पादक"
-  groups_hubs: "आमचे केंद्र"
+  groups_hubs: "आमचे हब्स"
   groups_contact_web: संपर्क
   groups_contact_social: अनुसरण करा
   groups_contact_address: पत्ता
@@ -2196,11 +2199,11 @@ mr:
   groups_signup_title: गट म्हणून साइन अप करा
   groups_signup_headline: गट साइन अप करा
   groups_signup_email: आम्हाला ईमेल करा
-  groups_signup_motivation1: आम्ही अन्नप्रणालीमध्ये प्रामाणिकपणे परिवर्तन करतो.
+  groups_signup_motivation1: आम्ही अन्नधान्य प्रणालीमध्ये प्रामाणिकपणे परिवर्तन करतो.
   groups_signup_motivation4: तुम्ही जिथे आहात तिथे आम्ही तुम्हाला भेटतो.
-  groups_signup_motivation7: आम्ही अन्न हालचाली अधिक अर्थपूर्ण बनवतो.
+  groups_signup_motivation7: आम्ही अन्नधान्यांचे दळणवळण अधिक अर्थपूर्ण बनवतो.
   groups_signup_pricing: गट खाते
-  groups_signup_studies: घटनेचा अभ्यास
+  groups_signup_studies: प्रकरणांचा अभ्यास
   groups_signup_contact: चर्चा करण्यास तयार आहात?
   groups_signup_contact_text: "OFN तुमच्यासाठी काय करू शकते हे शोधण्यासाठी संपर्कात रहा:"
   groups_signup_detail: "येथे तपशील आहे."
@@ -2210,17 +2213,17 @@ mr:
   producers_contact: संपर्क
   producers_contact_phone: कॉल करा
   producers_contact_social: अनुसरण करा
-  producers_buy_at_html: "%{enterprise} उत्पादनांसाठी येथे खरेदी करा:"
+  producers_buy_at_html: "%{enterprise} च्या उत्पादनांसाठी येथे खरेदी करा:"
   producers_filter: द्वारे फिल्टर करा
   producers_filter_type: प्रकार
   producers_filter_property: मालमत्ता
-  producers_title: निर्माते
+  producers_title: उत्पादक
   producers_headline: स्थानिक उत्पादक शोधा
   producers_signup_title: उत्पादक म्हणून साइन अप करा
-  producers_signup_headline: अन्न उत्पादक, सशक्त.
+  producers_signup_headline: अन्नधान्य उत्पादक, सशक्त.
   producers_signup_send: आता सामील व्हा
   producers_signup_enterprise: एंटरप्राइझ खाती
-  producers_signup_studies: आमच्या निर्मात्यांकडील कथा.
+  producers_signup_studies: आमच्या उत्पादकांनी सांगितलेले अनुभव.
   producers_signup_cta_headline: आता सामील व्हा!
   producers_signup_cta_action: आता सामील व्हा
   producers_signup_detail: येथे तपशील आहे.
@@ -2236,19 +2239,19 @@ mr:
   register_title: नोंदणी करा
   sell_title: "नोंदणी करा"
   sell_headline: "ओपन फूड नेटवर्कवर जा!"
-  sell_motivation: "तुमचे सुंदर अन्न दाखवा."
-  sell_producers: "निर्माते"
-  sell_hubs: "हब"
+  sell_motivation: "तुमचे वैभवशाली अन्नधान्य दाखवा."
+  sell_producers: "उत्पादक"
+  sell_hubs: "हब्स"
   sell_groups: "गट"
   sell_user_guide: "आमच्या वापरकर्ता मार्गदर्शकामध्ये अधिक शोधा."
   sell_ask_services: "OFN सेवांबद्दल आम्हाला विचारा."
   shops_title: दुकाने
-  shops_headline: खरेदी, बदललेले.
+  shops_headline: खरेदारी, आमूलाग्र बदललेली.
   shops_signup_title: हब म्हणून साइन अप करा
-  shops_signup_headline: फूड हब, अमर्यादित.
+  shops_signup_headline: अन्नधान्य हब, अमर्यादित.
   shops_signup_action: आता सामील व्हा
   shops_signup_pricing: एंटरप्राइझ खाती
-  shops_signup_stories: आमच्या हबमधील कथा.
+  shops_signup_stories: आमच्या हब्सनी सांगितलेले अनुभव.
   shops_signup_help: आम्ही मदत करण्यास तयार आहोत.
   shops_signup_detail: येथे तपशील आहे.
   orders: "आदेश"
@@ -2258,7 +2261,7 @@ mr:
   orders_edit_time: "साठी ऑर्डर तयार आहे"
   orders_edit_continue: "खरेदी चालू ठेवा"
   orders_edit_checkout: "तपासा"
-  orders_form_empty_cart: "रिकामी टोपली"
+  orders_form_empty_cart: "रिकामी कार्ट"
   orders_form_update_cart: "अपडेट करा"
   orders_form_subtotal: "उपएकूण तयार करा"
   orders_form_total: "एकूण"
@@ -2273,21 +2276,21 @@ mr:
   orders_show_confirmed: "पुष्टी केली"
   orders_your_order_has_been_cancelled: "तुमची ऑर्डर रद्द करण्यात आली आहे"
   orders_could_not_cancel: "क्षमस्व, ऑर्डर रद्द करणे शक्य नाही"
-  orders_cannot_remove_the_final_item: "ऑर्डरमधून अंतिम वस्तू काढू शकत नाही, कृपया त्याऐवजी ऑर्डर रद्द करा."
+  orders_cannot_remove_the_final_item: "ऑर्डर मधील उरलेली शेवटची वस्तू काढू शकत नाही, त्याऐवजी कृपया ऑर्डर रद्द करा."
   orders_bought_edit_button: "पुष्टी केलेले वस्तू संपादित करा"
   orders_bought_already_confirmed: "* आधीच पुष्टी"
-  orders_confirm_cancel: "तुमची खात्री आहे की तुम्ही ही ऑर्डर रद्द करू इच्छिता?"
+  orders_confirm_cancel: "तुम्ही नक्की ही ऑर्डर रद्द करू इच्छिता?"
   order_processed_successfully: "तुमच्या ऑर्डरवर यशस्वीरित्या प्रक्रिया केली गेली आहे"
   products_cart_distributor_choice: "तुमच्या ऑर्डरसाठी वितरक:"
   products_cart_distributor_is: "या ऑर्डरसाठी तुमचा वितरक %{name} आहे."
   products_oc: "तुमच्या ऑर्डरसाठी ऑर्डर सायकल:"
-  products_oc_current: "तुमचे सध्याचे ऑर्डर सायकल"
+  products_oc_current: "तुमची सध्याची ऑर्डर सायकल"
   products_max_quantity: कमाल प्रमाण
   products_distributor: वितरक
   password: पासवर्ड
   remember_me: माझी आठवण ठेवा
-  are_you_sure: "तुला खात्री आहे?"
-  orders_open: "ऑर्डर उघडल्या"
+  are_you_sure: "तुम्हाला खात्री आहे?"
+  orders_open: "ऑर्डर्स उघडल्या"
   closing: "बंद होत आहे"
   going_back_to_home_page: "तुम्हाला परत मुख्यपृष्ठावर घेऊन जात आहे"
   creating: निर्माण करणे
@@ -2327,7 +2330,7 @@ mr:
   forgot_password: "पासवर्ड विसरलात?"
   password_reset_sent: "तुमचा पासवर्ड रीसेट करण्याच्या सूचनांसह ईमेल पाठवण्यात आला आहे!"
   reset_password: "पासवर्ड रीसेट करा"
-  update_and_recalculate_fees: "फी अद्यतनित करा आणि पुनर्गणना करा"
+  update_and_recalculate_fees: "फी अपडेट करा आणि पुनर्गणना करा"
   registration:
     steps:
       introduction:
@@ -2337,7 +2340,7 @@ mr:
         registration_time: "5-10 मिनिटे"
         registration_enterprise_address: "एंटरप्राइझ पत्ता"
         registration_contact_details: "प्राथमिक संपर्क तपशील"
-        registration_logo: "तुमचा लोगो इमेज"
+        registration_logo: "तुमच्या लोगोकी इमेज"
         registration_promo_image: "तुमच्या प्रोफाइलसाठी लँडस्केप इमेज"
         registration_about_us: "&#39;आमच्याबद्दल&#39; मजकूर"
         registration_outcome_headline: "मला काय मिळेल?"
@@ -2345,15 +2348,15 @@ mr:
       details:
         title: "तपशील"
         headline: "चला सुरू करुया"
-        enterprise_name_field: "एंटरप्राइझ नाव :"
-        producer_name_field: "शेताचे नाव :"
-        producer_name_field_placeholder: "उदा. चार्लीचे अप्रतिम फार्म"
+        enterprise_name_field: "एंटरप्राइझ नाव:"
+        producer_name_field: "शेताचे नाव:"
+        producer_name_field_placeholder: "उदा. पाटलांचे अप्रतिम फार्म"
         address1_field: "पत्ता ओळ 1:"
-        address1_field_placeholder: "उदा 123 क्रॅनबेरी ड्राइव्ह"
+        address1_field_placeholder: "उदा 123 महर्षी कर्वे रोड"
         address1_field_error: "कृपया पत्ता प्रविष्ट करा"
         address2_field: "पत्ता ओळ 2:"
         suburb_field: "उपनगर:"
-        suburb_field_placeholder: "उदा. नॉर्थकोट"
+        suburb_field_placeholder: "उदा. रत्नागिरी"
         suburb_field_error: "कृपया उपनगर प्रविष्ट करा"
         postcode_field: "पिनकोड:"
         postcode_field_placeholder: "उदा. ३०७०"
@@ -2413,7 +2416,7 @@ mr:
         enterprise_final_step: "अंतिम टप्पा!"
         enterprise_social_text: "लोक %{enterprise} ऑनलाइन कसे शोधू शकतात?"
         website: "वेबसाइट"
-        website_placeholder: "उदा. openfoodnetwork.org.au"
+        website_placeholder: "उदा. openfoodnetwork.in"
         facebook: "फेसबुक"
         facebook_placeholder: "उदा. www.facebook.com/PageNameHere"
         linkedin: "लिंक्डइन"
@@ -2443,7 +2446,7 @@ mr:
   shop_variant_quantity_max: "कमाल"
   contact: "संपर्क"
   follow: "अनुसरण करा"
-  shop_for_products_html: "<span class=\"turquoise\">%{enterprise}</span> उत्पादनांसाठी येथे खरेदी करा:"
+  shop_for_products_html: "<span class=\"turquoise\">%{enterprise}</span> च्या उत्पादनांसाठी येथे खरेदी करा:"
   change_shop: "दुकान यात बदला:"
   shop_at: "आता येथे खरेदी करा:"
   admin_fee: "प्रशासन शुल्क"
@@ -2487,23 +2490,23 @@ mr:
   admin_enterprise_groups_enterprise: "एंटरप्राइज"
   admin_enterprise_groups_data_powertip_logo: "हा समूहाचा लोगो आहे"
   admin_enterprise_groups_contact_phone_placeholder: "उदा. 98 7654 3210"
-  admin_enterprise_groups_contact_address1_placeholder: "उदा. 123 हाय स्ट्रीट"
+  admin_enterprise_groups_contact_address1_placeholder: "उदा. 123 महर्षी कर्वे रोड"
   admin_enterprise_groups_contact_city: "उपनगर"
-  admin_enterprise_groups_contact_city_placeholder: "उदा. नॉर्थकोट"
+  admin_enterprise_groups_contact_city_placeholder: "उदा. रत्नागिरी"
   admin_enterprise_groups_contact_zipcode: "पिनकोड"
   admin_enterprise_groups_contact_zipcode_placeholder: "उदा. 3070"
   admin_enterprise_groups_contact_state_id: "राज्य"
   admin_enterprise_groups_contact_country_id: "देश"
   admin_enterprise_groups_web_twitter: "उदा. @the_prof"
   admin_enterprise_groups_web_website_placeholder: "उदा. www.truffles.com"
-  admin_order_cycles: "प्रशासन ऑर्डर सायकल"
+  admin_order_cycles: "ऑर्डर सायकल प्रशासन"
   open: "उघडा"
   close: "बंद"
   create: "तयार करा"
   search: "शोधा"
   supplier: "पुरवठादार"
   product_name: "उत्पादनाचे नांव"
-  product_description: "उत्पादन वर्णन"
+  product_description: "उत्पादनाचे वर्णन"
   permalink: "परमालिंक"
   shipping_categories: "शिपिंग श्रेण्या"
   units: "युनिट आकार"
@@ -2511,15 +2514,15 @@ mr:
   distributor: "वितरक"
   enterprise_fees: "एंटरप्राइझ फी"
   process_my_order: "माझ्या ऑर्डरवर प्रक्रिया करा"
-  delivery_instructions: वितरण सूचना
-  delivery_method: वितरण पद्धत
+  delivery_instructions: डिलिव्हरी सूचना
+  delivery_method: डिलिव्हरी पद्धत
   fee_type: "शुल्क प्रकार"
   tax_category: "कर श्रेणी"
   display: "डिस्प्ले"
   tags: "टॅग्ज"
   calculator: "कॅल्क्युलेटर"
   calculator_values: "कॅल्क्युलेटर मूल्ये"
-  calculator_preferred_unit_error: "किलो किंवा पौंड असणे आवश्यक आहे"
+  calculator_preferred_unit_error: "किलो असणे आवश्यक आहे"
   flat_percent_per_item: "सपाट टक्के (प्रति वस्तू )"
   flat_rate_per_item: "सपाट दर (प्रति वस्तू )"
   flat_rate_per_order: "सपाट दर (प्रति ऑर्डर)"
@@ -2559,7 +2562,7 @@ mr:
   spree_admin_enterprises_fees: "एंटरप्राइझ फी"
   spree_admin_enterprises_none_create_a_new_enterprise: "नवीन एंटरप्राइझ तयार करा"
   spree_admin_enterprises_none_text: "तुमच्याकडे अजून कोणतेही उद्योग नाहीत"
-  spree_admin_enterprises_tabs_hubs: "हब"
+  spree_admin_enterprises_tabs_hubs: "हब्स"
   spree_admin_enterprises_producers_manage_products: "उत्पादने व्यवस्थापित करा"
   spree_admin_enterprises_create_new_product: "नवीन उत्पादन तयार करा"
   spree_admin_single_enterprise_alert_mail_confirmation: "कृपया ईमेल पत्त्याची पुष्टी करा"
@@ -2594,12 +2597,12 @@ mr:
   tax_settings: "कर सेटिंग्ज"
   products_require_tax_category: "उत्पादनांना कर श्रेणी आवश्यक आहे"
   admin_shared_address_1: "पत्ता"
-  admin_shared_address_2: "पत्ता (चालू.)"
+  admin_shared_address_2: "पत्ता (क्रमशः)"
   admin_share_city: "शहर"
   admin_share_zipcode: "पिनकोड"
   admin_share_country: "देश"
   admin_share_state: "राज्य"
-  hub_sidebar_hubs: "हब"
+  hub_sidebar_hubs: "हब्स"
   hub_sidebar_none_available: "काहीही उपलब्ध नाही"
   hub_sidebar_manage: "मॅनेज"
   hub_sidebar_at_least: "किमान एक हब निवडणे आवश्यक आहे"
@@ -2610,11 +2613,11 @@ mr:
   report_customers_supplier: "पुरवठादार"
   report_customers_cycle: "ऑर्डर सायकल"
   report_customers_type: "रिपोर्टस् टाइप करा"
-  report_customers_csv: "csv म्हणून डाउनलोड करा"
+  report_customers_csv: "CSV फॉरमॅटमध्ये डाउनलोड करा"
   report_customers: ग्राहक
-  report_producers: "निर्माते"
+  report_producers: "उत्पादक"
   report_type: "रिपोर्टस् टाइप करा"
-  report_hubs: "हब"
+  report_hubs: "हब्स"
   report_payment: "पेमेंट पद्धती"
   report_distributor: "वितरक"
   report_payment_by: 'प्रकारानुसार देयके'
@@ -2622,15 +2625,15 @@ mr:
   report_payment_totals: 'पेमेंट बेरीज'
   report_all: 'सर्व'
   report_order_cycle: "ऑर्डर सायकल"
-  report_hide_columns: लपविण्यासाठी स्तंभ
-  report_columns: स्तंभ
+  report_hide_columns: कॉलम्स लपविण्यासाठी
+  report_columns: कॉलम्स
   report_enterprises: "एंटरप्राइज"
-  report_enterprise_fee: "फी नावे"
+  report_enterprise_fee: "फी ची नावे"
   report_users: "वापरकर्ते"
   report_tax_rates: कर दर
   report_tax_types: कर प्रकार
-  report_filters: रिपोर्टस्
-  report_print: छापा रिपोर्टस्
+  report_filters: रिपोर्ट फिल्टर्स
+  report_print: रिपोर्टस् छापा
   report_render_options: रेंडरिंग पर्याय
   report_header_ofn_uid: OFN UID
   report_header_order_cycle: ऑर्डर सायकल
@@ -2647,14 +2650,14 @@ mr:
   report_header_relationship: नाते
   report_header_hub: हब
   report_header_hub_address: हब पत्ता
-  report_header_to_hub: हबला
+  report_header_to_hub: हब ला
   report_header_hub_code: हब कोड
   report_header_hub_id: हब आयडी
   report_header_hub_business_number: "हब व्यवसाय क्रमांक"
   report_header_hub_legal_name: "हब कायदेशीर नाव"
   report_header_hub_contact_name: "हब संपर्क नाव"
   report_header_hub_email: "हब सार्वजनिक ईमेल"
-  report_header_hub_owner_email: हब मालक ईमेल
+  report_header_hub_owner_email: हब मालकाचा ईमेल
   report_header_hub_phone: "हब फोन नंबर"
   report_header_hub_address_line1: "हब अॅड्रेस लाइन 1"
   report_header_hub_address_line2: "हब अॅड्रेस लाइन 2"
@@ -2671,7 +2674,7 @@ mr:
   report_header_ship_street_2: शिप स्ट्रीट 2
   report_header_ship_city: शिप सिटी
   report_header_ship_postcode: शिप पोस्टकोड
-  report_header_ship_state: जहाज राज्य
+  report_header_ship_state: शिप राज्य
   report_header_billing_street: बिलिंग स्ट्रीट
   report_header_billing_street_2: बिलिंग स्ट्रीट 2
   report_header_billing_street_3: बिलिंग स्ट्रीट 3
@@ -2689,16 +2692,16 @@ mr:
   report_header_items_total: "वस्तू %{currency_symbol}"
   report_header_taxable_items_total: "करपात्र वस्तू एकूण ( %{currency_symbol} )"
   report_header_sales_tax: "विक्रीकर ( %{currency_symbol} )"
-  report_header_delivery_charge: "वितरण शुल्क ( %{currency_symbol} )"
+  report_header_delivery_charge: "डिलिव्हरी शुल्क ( %{currency_symbol} )"
   report_header_tax: "कर"
-  report_header_tax_on_delivery: "वितरणावर कर ( %{currency_symbol} )"
+  report_header_tax_on_delivery: "डिलिव्हरीवर कर ( %{currency_symbol} )"
   report_header_tax_on_fees: "शुल्कावरील कर ( %{currency_symbol} )"
   report_header_tax_category: "कर श्रेणी"
-  report_header_tax_rate_name: "कर नाव ="
+  report_header_tax_rate_name: "कर दर नाव"
   report_header_tax_rate: "कर दर"
   report_header_total_tax: "एकूण कर ( %{currency_symbol} )"
-  report_header_total_excl_tax: "एकूण वगळ कर ( %{currency_symbol} )"
-  report_header_total_incl_tax: "एकूण समावेश. कर ( %{currency_symbol} )"
+  report_header_total_excl_tax: "एकूण वजा कर ( %{currency_symbol} )"
+  report_header_total_incl_tax: "एकूण करासमवेत ( %{currency_symbol} )"
   report_header_total_orders: "ऑर्डरची एकूण संख्या"
   report_header_enterprise: एंटरप्राइझ
   report_header_enterprise_fee_name: नाव
@@ -2729,7 +2732,7 @@ mr:
   report_header_group_buy_unit_quantity: गट खरेदी युनिट प्रमाण
   report_header_cost: खर्च
   report_header_shipping_cost: वाहतूक खर्च
-  report_header_curr_cost_per_unit: कर्र. प्रति युनिट किंमत
+  report_header_curr_cost_per_unit: सध्याची प्रति युनिट किंमत
   report_header_total_shipping_cost: एकूण शिपिंग खर्च
   report_header_payment_method: पेमेंट पद्धत
   report_header_sells: विकतो
@@ -2741,8 +2744,8 @@ mr:
   report_header_distributor_city: वितरक शहर
   report_header_distributor_postcode: वितरक पोस्टकोड
   report_header_distributor_tax_status: वितरक कर स्थिती
-  report_header_delivery_address: वितरण पत्ता
-  report_header_delivery_postcode: वितरण पोस्टकोड
+  report_header_delivery_address: डिलिव्हरी पत्ता
+  report_header_delivery_postcode: डिलिव्हरी पोस्टकोड
   report_header_bulk_unit_size: मोठ्या प्रमाणात युनिट आकार
   report_header_weight: वजन
   report_header_final_weight_volume: अंतिम (वजन/खंड)
@@ -2752,8 +2755,8 @@ mr:
   report_header_sum_total: एकूण बेरीज
   report_header_date_of_order: ऑर्डरची तारीख
   report_header_amount_owing: देय रक्कम
-  report_header_amount_paid: देय रक्कम
-  report_header_units_required: युनिट्स आवश्यक
+  report_header_amount_paid: रक्कम दिली
+  report_header_units_required: आवश्यक युनिट्स
   report_header_remainder: बाकी
   report_header_order_date: मागणीची तारीख
   report_header_order_id: ऑर्डर आयडी
@@ -2787,7 +2790,7 @@ mr:
   report_header_total_excl_vat: "एकूण वगळ कर ( %{currency_symbol} )"
   report_header_total_incl_vat: "एकूण समावेश. कर ( %{currency_symbol} )"
   report_header_temp_controlled: Tempcontrolled?
-  report_header_is_producer: निर्माता ?
+  report_header_is_producer: उत्पादक?
   report_header_not_confirmed: पुष्टी नाही
   report_header_gst_on_income: उत्पन्नावर जीएसटी
   report_header_gst_free_income: जीएसटी मुक्त उत्पन्न
@@ -2847,14 +2850,14 @@ mr:
   product_import_no_data_in_spreadsheet_notice: 'स्प्रेडशीटमध्ये कोणताही डेटा आढळला नाही'
   order_choosing_hub_notice: तुमचे हब निवडले गेले आहे.
   order_cycle_selecting_notice: तुमची ऑर्डर सायकल निवडली गेली आहे.
-  enterprise_fees_update_notice: तुमची एंटरप्राइझ फी अद्यतनित केली गेली आहे.
+  enterprise_fees_update_notice: तुमची एंटरप्राइझ फी अपडेट केली गेली आहे.
   enterprise_register_package_error: "कृपया पॅकेज निवडा"
   enterprise_register_error: "%{enterprise} साठी नोंदणी पूर्ण करू शकलो नाही"
-  enterprise_bulk_update_success_notice: "उपक्रम यशस्वीरित्या अद्यतनित केले"
-  enterprise_bulk_update_error: 'अद्यतन अयशस्वी'
+  enterprise_bulk_update_success_notice: "उपक्रम यशस्वीरित्या अपडेट केले"
+  enterprise_bulk_update_error: 'अपडेट अयशस्वी'
   order_cycles_create_notice: 'तुमची ऑर्डर सायकल तयार झाली आहे.'
   order_cycles_update_notice: 'तुमची ऑर्डर सायकल अपडेट केली गेली आहे.'
-  order_cycles_bulk_update_notice: 'ऑर्डर सायकल अद्यतनित केली गेली आहेत.'
+  order_cycles_bulk_update_notice: 'ऑर्डर सायकल अपडेट केली गेली आहेत.'
   order_cycles_clone_notice: "तुमची ऑर्डर सायकल %{name} क्लोन केली गेली आहे."
   back_to_orders_list: "ऑर्डर सूचीकडे परत"
   no_orders_found: "कोणत्याही ऑर्डर आढळल्या नाहीत"
@@ -2899,8 +2902,8 @@ mr:
         tag_rule_help:
           title: टॅग नियम
           overview: आढावा
-          by_default_rules: "&#39;बाय डिफॉल्ट...&#39; नियम"
-          customer_tagged_rules: "&#39;ग्राहक टॅग केलेले...&#39; नियम"
+          by_default_rules: "'बाय डिफॉल्ट...' नियम"
+          customer_tagged_rules: "'ग्राहक टॅग केलेले...' नियम"
         terms_and_conditions_info:
           title: "अटी आणि शर्ती अपलोड करत आहे"
         terms_and_conditions_warning:
@@ -2926,21 +2929,21 @@ mr:
         enterprise_producer:
           producer: उत्पादक
           non_producer: नॉन- उत्पादक
-          producer_desc: अन्न उत्पादक
+          producer_desc: अन्नधान्य उत्पादक
           producer_example: उदा. उत्पादक, बेकर्स, ब्रूअर्स, मेकर्स
-          non_producer_desc: इतर सर्व अन्न उपक्रम
-          non_producer_example: उदा. किराणा दुकान, अन्न सहकारी, खरेदी गट
+          non_producer_desc: इतर सर्व अन्नधान्य उपक्रम
+          non_producer_example: उदा. किराणा मालाची दुकाने, अन्नधान्य सहकारी संघटना, खरेदी गट
         enterprise_status:
           status_title: "%{name} सेट केले आहे आणि जाण्यासाठी तयार आहे!"
           severity: तीव्रता
           description: वर्णन
           resolve: निराकरण करा
         exchange_products:
-          load_more_variants: "अधिक रूपे लोड करा"
+          load_more_variants: "अधिक प्रकार लोड करा"
           load_all_variants: "सर्व प्रकार लोड करा"
           select_all_variants: "सर्व %{total_number_of_variants} प्रकार निवडा"
-          variants_loaded: "%{total_number_of_variants} चे %{num_of_variants_loaded} रूपे लोड केले"
-          loading_variants: "रूपे लोड करत आहे"
+          variants_loaded: "%{total_number_of_variants} चे %{num_of_variants_loaded} प्रकार लोड केले"
+          loading_variants: "प्रकार लोड करत आहे"
       tag_rules:
         shipping_method_tagged_top: "शिपिंग पद्धती टॅग केल्या आहेत"
         shipping_method_tagged_bottom: "आहेत:"
@@ -2953,8 +2956,6 @@ mr:
       new_tag_rule_dialog:
         select_rule_type: "नियम प्रकार निवडा:"
         add_rule: "नियम जोडा"
-      enterprise_fees:
-        inherit_from_product: "उत्पादनातून वारसा"
       orders:
         index:
           per_page: "%{results} प्रति पृष्ठ"
@@ -2970,7 +2971,7 @@ mr:
           cart: "कार्ट"
           complete: "पूर्ण"
           confirm: "पुष्टी"
-          delivery: "वितरण"
+          delivery: "डिलिव्हरी"
           paused: "विराम दिला"
           payment: "पेमेंट"
           pending: "प्रलंबित"
@@ -2985,7 +2986,7 @@ mr:
           shipped: "पाठवले"
           canceled: "रद्द केले"
         payment_states:
-          balance_due: "शिल्लक शिल्लक"
+          balance_due: "शिल्लक बाकी"
           completed: "पूर्ण"
           checkout: "तपासा"
           credit_owed: "कर्ज देणे"
@@ -2997,9 +2998,8 @@ mr:
           void: "शून्य"
           invalid: "अवैध"
         quantity_unavailable: "अपुरा साठा उपलब्ध. वस्तू जतन केलेली नाही!"
-        quantity_unchanged: "मागील रकमेपेक्षा अपरिवर्तित रक्कम."
-        restock_item: "वस्तू करा: हा वस्तू स्टॉकमध्ये परत करा"
-        restock_items: "वस्तू करा: सर्व वस्तू स्टॉकमध्ये परत करा"
+        restock_item: "Restock करा: हि वस्तू स्टॉकमध्ये परत करा"
+        restock_items: "Restock करा: सर्व वस्तू स्टॉकमध्ये परत करा"
       resend_user_email_confirmation:
         resend: "पुन्हा पाठवा"
         sending: "पुन्हा पाठवा..."
@@ -3065,12 +3065,12 @@ mr:
       one_override: एक ओव्हरराइड
       overrides: अधिलिखित करते
       remain_unsaved: जतन न केलेले राहा.
-      no_changes_to_save: जतन करण्यासाठी कोणतेही बदल नाहीत.&#39;
+      no_changes_to_save: जतन करण्यासाठी कोणतेही बदल नाहीत.';
       some_trouble: "मला जतन करण्यात काही अडचण आली: %{errors}"
-      changing_on_hand_stock: हँड स्टॉक लेव्हल बदलत आहे...
+      changing_on_hand_stock: उपलब्ध स्टॉकची लेव्हल बदलत आहे...
       stock_reset: स्टॉक डीफॉल्टवर रीसेट केले.
     tag_rules:
-      show_hide_variants: 'माझ्या शॉपफ्रंटमध्ये रूपे दाखवा किंवा लपवा'
+      show_hide_variants: 'माझ्या शॉपफ्रंटमध्ये प्रकार दाखवा किंवा लपवा'
       visible: दृश्यमान
       not_visible: अदृश्य
     services:
@@ -3125,7 +3125,7 @@ mr:
       other: "जार"
     head:
       one: "डोके"
-      other: "डोके"
+      other: "heads"
     bag:
       one: "पिशवी"
       other: "पिशव्या"
@@ -3187,7 +3187,7 @@ mr:
       enterprise_fee_summaries:
         filters:
           date_range: "तारीख श्रेणी"
-          report_format_csv: "CSV म्हणून डाउनलोड करा"
+          report_format_csv: "CSV फॉरमॅटमध्ये डाउनलोड करा"
           generate_report: "रिपोर्टस् तयार करा"
         report:
           none: "कोणतेही नाही"
@@ -3326,7 +3326,7 @@ mr:
     count_on_hand: "हातावर मोजा"
     quantity: "प्रमाण"
     on_demand: "मागणीनुसार"
-    on_hand: "हातावर"
+    on_hand: "आता उपलब्ध"
     package_from: "पासून पॅकेज"
     item_description: "वस्तू वर्णन"
     price: "किंमत"
@@ -3347,7 +3347,7 @@ mr:
     first_name: "नाव "
     last_name: "आडनाव"
     street_address: "रस्त्याचा पत्ता"
-    street_address_2: "रस्त्याचा पत्ता (चालू)"
+    street_address_2: "रस्त्याचा पत्ता (क्रमशः)"
     city: "शहर"
     zip: "पिन कोड"
     country: "देश"
@@ -3387,7 +3387,7 @@ mr:
     choose_currency: "चलन निवडा"
     mail_method_settings: "मेल पद्धत सेटिंग्ज"
     general: "सामान्य"
-    enable_mail_delivery: "मेल वितरण सक्षम करा"
+    enable_mail_delivery: "मेल डिलिव्हरी चालू करा"
     send_mails_as: "म्हणून मेल पाठवा"
     smtp_send_all_emails_as_from_following_address: "खालील पत्त्यावर सर्व मेल पाठवा."
     send_copy_of_all_mails_to: "यांना सर्व मेल्सची प्रत पाठवा"
@@ -3471,7 +3471,7 @@ mr:
     options: "पर्याय"
     has_no_shipped_units: "कोणतेही शिप केलेले युनिट नाहीत"
     successfully_created: '%{resource} यशस्वीरित्या तयार केले गेले आहे!'
-    successfully_updated: '%{resource} यशस्वीरित्या अद्यतनित केले गेले आहे!'
+    successfully_updated: '%{resource} यशस्वीरित्या अपडेट केले गेले आहे!'
     payment_method: "पेमेंट पद्धत"
     not_available: "N/A"
     sku: "SKU"
@@ -3614,7 +3614,7 @@ mr:
           issued_on: "रोजी जारी केले"
           tax_invoice: "टॅक्स इन्व्हॉइस"
           code: "कोड"
-          from: "पासून"
+          from: "उत्पादक"
           to: "ला बिल"
           shipping: "शिपिंग"
           order_number: "ऑर्डर क्रमांक"
@@ -3746,7 +3746,7 @@ mr:
           unit_name: "युनिट नाव"
           price: "किंमत"
           unit_price: "युनिट किंमत"
-          on_hand: "हातावर"
+          on_hand: "आता उपलब्ध"
           on_demand: "मागणीनुसार"
           product_description: "उत्पादन वर्णन"
           image: "इमेज"
@@ -3941,7 +3941,7 @@ mr:
       confirmation: "पुष्टीकरण"
       complete: पूर्ण
       confirm: पुष्टी
-      delivery: वितरण
+      delivery: डिलिव्हरी
       paused: विराम दिला
       payment: पेमेंट
       pending: प्रलंबित
